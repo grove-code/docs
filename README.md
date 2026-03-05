@@ -12,6 +12,10 @@
 curl -fsSL https://grove-code.github.io/scripts/install.sh | bash
 ```
 
+```bash
+curl -fsSL https://grove-code.github.io/scripts/install.sh | channel=canary bash
+```
+
 Installs to `~/.grove/` (symlinks to `~/.local/bin` if present).
 
 ## CLI
