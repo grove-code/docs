@@ -1,6 +1,8 @@
 <h1 align="center"><code>grove</code></h1>
 
-<p align="center">Cultivate your worktrees. Grow branches side by side—no stashing, no switching.</p>
+<p align="center">
+  Cultivate your worktrees. Grow branches side by side—no stashing, no switching.
+</p>
 
 ---
 
@@ -28,10 +30,6 @@ grove # open the text interface
 grove open # the http interface
 ```
 
-```bash
-claude -p "how do i use grove?"
-```
-
 ## MCP
 
 Endpoint: `http://localhost:7777/mcp`
@@ -41,5 +39,5 @@ claude mcp add grove --transport http http://localhost:7777/mcp
 ```
 
 ```bash
-claude -p "what tools are available in grove?"
+claude -p "how do i use grove? what tools are available?"
 ```
