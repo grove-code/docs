@@ -29,6 +29,7 @@ legacy/        # frozen v3 tree — not built or released (see plans/promote-v1.
 
 ```sh
 mise run setup          # deps + build
+mise run dev            # boot the dev server (home ~/.grove-dev, http://127.0.0.1:3000)
 mise run test           # ExUnit + cargo test
 mise run check          # format + lint (read-only)
 mise run fmt            # auto-format
